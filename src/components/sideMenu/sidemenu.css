@@ -1,0 +1,55 @@
+.side-menu {
+  width: 20%;
+  background: #2980b9;
+  background: -webkit-linear-gradient(to top, #2c3e50, #2980b9);
+  background: linear-gradient(to bottom, #2c3e50, #2980b9);
+
+  color: white;
+  min-height: 100vh;
+  overflow: hidden;
+  -webkit-box-shadow: 6px 0px 8px -2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 6px 0px 8px -2px rgba(0, 0, 0, 0.4);
+  box-shadow: 6px 0px 8px -2px rgba(0, 0, 0, 0.4);
+}
+.side-menu h1 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.side-menu .menu-item {
+  padding: 20px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: all 0.5s;
+}
+.side-menu span {
+  margin-left: 20px;
+  font-size: 18px;
+}
+.side-menu .menu-item:hover {
+  background-color: white;
+  color: #2980b9;
+  border-left: 3px solid;
+  border-color: linear-gradient(to top, #2c3e50, #2980b9);
+}
+.side-menu .menu-item:hover .menu-icons {
+  background: -webkit-radial-gradient(
+    circle at 33% 100%,
+    #2c3e50 50%,
+    #2980b9 80%,
+    #2c3e50
+  );
+  background: radial-gradient(
+    circle at 33% 100%,
+    #2c3e50 50%,
+    #2980b9 80%,
+    #2c3e50
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.side-menu .menu-item i {
+  font-size: 25px;
+}

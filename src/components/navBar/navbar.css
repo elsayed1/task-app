@@ -1,0 +1,82 @@
+nav {
+  padding: 15px;
+  margin-left: 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  color: #888;
+  margin-left: 20px;
+}
+nav .right {
+  display: flex;
+}
+nav input {
+  border: 1px solid #ddd;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+  padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+  width: 250px;
+  outline: none;
+}
+nav .right div {
+  position: relative;
+}
+nav .right div i {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: #ddd;
+  cursor: pointer;
+}
+nav .right > i {
+  position: relative;
+
+  margin-left: 30px;
+  cursor: pointer;
+  background: -webkit-radial-gradient(
+    circle at 33% 100%,
+    #2c3e50 50%,
+    #2980b9 80%,
+    #2c3e50
+  );
+  background: radial-gradient(
+    circle at 33% 100%,
+    #2c3e50 50%,
+    #2980b9 80%,
+    #2c3e50
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav .right .img {
+  background: url(https://www.w3schools.com/howto/img_avatar2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 30px;
+  overflow: hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+nav .right > span {
+  content: "100";
+  position: relative;
+  background: #2980b9;
+  height: 20px;
+  top: 0;
+  right: 7px;
+  width: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 1rem;
+  border-radius: 50%;
+  color: white;
+  border: 1px solid #fff;
+}
